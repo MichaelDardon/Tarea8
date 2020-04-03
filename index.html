@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="estilos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+        </head>
+        <body style="background-color: rgb(19, 19, 19);">  
+      
+        <h1><p style="color: goldenrod;"> Formulario de asignación de cursos</p></h1>
+
+        <form action="datos.php" method="post" >
+  
+        <div class="form-example">
+        <label style="color: goldenrod;" for="name">Nombre: </label>
+        <input type="text" name="name" id="name" required placeholder="Escriba su nombre">
+        </div>
+        <br>
+
+        <div class="form-example">
+        <label style="color: goldenrod;" for="apellidos">Apellidos: </label>
+        <input type="text" name="apellidos" required placeholder="Escriba sus apellidos">
+        </div>
+        <br>
+
+        <div class="form-example">
+        <label style="color: goldenrod;" for="email">Ingresa tu correo: </label>
+        <input type="email" name="email" id="email" required placeholder="Escriba su correo">
+        </div>
+        <br>
+       
+        <div class="form-example">
+        <label style="color: goldenrod;" for="tel">Telefono: </label>
+        <input type="tel" name="telefono" id="tel" required placeholder="Esriba su telefono">
+        </div>
+        <br>
+
+        <div class="form-example">
+        <label style="color: goldenrod;" for="number">Numero de carnet: </label>
+        <input type="number" name="numero" step="any" required placeholder="Escriba su carnet">
+        </div>
+        <br>
+
+        <div class="form-example">
+        <label style="color: goldenrod;" for="pass">Ingresa tu PIN:</label>
+        <input type="password" id="pass" name="password" placeholder="Escriba su PIN">
+        </div>
+        <br>
+
+        <p style="color: goldenrod; font-family: Arial, Helvetica, sans-serif;">Seleccione su genero:</p>
+
+        <div>
+        <input type="radio" id="Masculino" name="genero" value="Masculino"
+        checked>
+        <label style="color: darkgoldenrod;" for="Masculino">Masculino</label>
+        </div>
+        <br>
+
+        <div>
+        <input type="radio" id="Femenino" name="genero" value="Femenino">
+        <label style="color: darkgoldenrod;" for="Femenino">Femenino</label>
+        </div>
+        <br>
+
+        <div>
+        <input type="radio" id="Otro" name="genero" value="Otro">
+        <label style="color: darkgoldenrod;" for="Otro">Otro</label>
+        </div>
+        <br>
+
+        <p style="color: darkgoldenrod; font-family: Arial, Helvetica, sans-serif;"  >Cursos que desea asignar:</p>
+        <div>
+        <input type="checkbox" id="Matematica" name="curso">
+       
+        <label style="color: darkgoldenrod;" for="Matematica">Matematica</label>
+        </div>
+        <br>
+
+        <div>
+        <input type="checkbox" id="Filosofia" name="curso">
+        <label style="color: darkgoldenrod;" for="Filosofia">Filosofia</label>
+        </div>
+        <br>
+
+        <div>
+        <input type="checkbox" id="Historia" name="curso">
+        <label style="color: darkgoldenrod;" for="Historia">Historia</label>
+        </div>
+        <br>
+
+        <div>
+        <input type="checkbox" id="Contabilidad" name="curso">
+        <label style="color: darkgoldenrod;" for="Contabilidad">Contabilidad</label>
+        </div>
+        <br>
+
+        <div>
+        <input type="checkbox" id="Computación" name="curso">
+        <label style="color: darkgoldenrod;" for="Computación">Computación</label>
+        </div>
+        <br>
+        <video src="vidio/auto.mp4" autoplay>ver video</video>
+
+        <img src="img/img.jpg" alt="Arturito Gulf">
+
+        
+
+      </form>
+      
+    
+</body>
+</html>
